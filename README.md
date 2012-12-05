@@ -1,8 +1,8 @@
 JcdcFoundation
 ===
 
-A module for Zend Framework 2 integration with Foundation 3 front-end framework.
-
+A module for Zend Framework 2 integration with the [Foundation](http://foundation.zurb.com)
+ 3 front-end framework.
 
 ####This module provides:
 ### View Helpers
