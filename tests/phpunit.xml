@@ -1,0 +1,28 @@
+<phpunit bootstrap="./Bootstrap.php" colors="true">
+    
+    <testsuites><!-- TESTSUITES -->
+        
+        <testsuite name="ZfmFoundation Test Suite">
+            
+            <directory>./</directory>
+            
+        </testsuite>
+        
+    </testsuites>
+    
+	<logging><!-- LOGGING AND COVERAGE REPORTS -->
+	    
+		<log type="coverage-html"
+			 target="./logs/reports" 
+			 charset="UTF-8" 
+			 yui="true" 
+			 highlight="true" 
+			 lowUpperBound="50" 
+			 highLowerBound="80" />
+		
+		<log type="testdox" target="./logs/testdox.html" />
+		<log type="json" target="./logs/log.json"/>
+		
+	</logging>
+    
+</phpunit>
