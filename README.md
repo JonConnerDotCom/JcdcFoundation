@@ -11,7 +11,7 @@ A module for Zend Framework 2 integration with Foundation 3 front-end framework.
 ###Form View Helpers
 
 <b title="JcdcFoundation\Form\View\Helper\FoundationForm">FoundationForm</b> helper for rendering entire forms in one statement.
-   For example
+   For example, in your view...
 
 ```php
 <?= $this->foundationForm($this->form, '/form/action', 'METHOD' ); ?>
